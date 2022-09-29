@@ -17,7 +17,7 @@ Instructions for installation can be found at https://github.com/aeleos/cloudfla
   <TemplateURL>https://raw.githubusercontent.com/aeleos/cloudflared/main/cloudflared.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/aeleos/cloudflared/main/cloudflare-icon.png</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
-  <PostArgs>tunnel --no-autoupdate run --token $TOKEN</PostArgs>
+  <PostArgs>tunnel --no-autoupdate run --token TOKEN</PostArgs>
   <CPUset/>
   <DateInstalled>1622768343</DateInstalled>
   <DonateText/>
